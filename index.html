@@ -14,20 +14,119 @@
   <script src="https://kit.fontawesome.com/eaca9dc347.js" crossorigin="anonymous"></script>
   <!-- PERSONNAL TAILWIND CSS -->
   <link href="./dist/output.css" rel="stylesheet" />
+  <!-- SCRIPT JS -->
+  <script src="./src/assets/js/toggleNavbar.js"></script>
 
 
 </head>
 
 <body>
-  <h1 class="text-6xl text-teal-900">TEST</h1>
+
   <!-- START OF NAVBAR -->
+  <nav class="top-0 absolute z-50 w-full flex flex-wrap items-center justify-between px-2 py-3 ">
+    <div class="container px-4 mx-auto flex flex-wrap items-center justify-between">
+      <div class="w-full relative flex justify-between lg:w-auto lg:static lg:block lg:justify-start">
+        <!-- BRAND NAME -->
+        <a class="text-3xl font-bold leading-relaxed inline-block mr-4 py-2 whitespace-nowrap uppercase text-white"
+          href="https://github.com/clsdjo30" target="blank">
+          <span class="text-red-700 text-4xl">S</span>teri<span class="text-teal-800 text-4xl ">L</span>yzed
+        </a>
+
+        <!-- MOBILE ICON MENU -->
+          <button
+          class="cursor-pointer text-xl leading-none px-3 py-1 border border-solid border-transparent rounded bg-transparent block lg:hidden outline-none focus:outline-none"
+          type="button" onclick="toggleNavbar('toggle-navbar')">
+          <i class="text-white fas fa-bars"></i>
+        </button>
+      </div>
+
+      <div class="lg:flex flex-1 items-center bg-white lg:bg-transparent lg:shadow-none hidden" id="toggle-navbar">
+
+        <ul class="flex flex-col lg:flex-row list-none mr-auto">
+          <li class="flex items-center">
+            <a class="lg:text-white lg:hover:text-gray-300 text-gray-800 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"
+              href="#mission"><i class="lg:text-gray-300 text-gray-500  text-lg leading-lg mr-2"></i>
+              Nos Missions</a>
+          </li>
+          <li class="flex items-center">
+            <a class="lg:text-white lg:hover:text-gray-300 text-gray-800 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"
+              href="#evenements"><i class="lg:text-gray-300 text-gray-500  text-lg leading-lg mr-2"></i>
+              Evenements</a>
+          </li>
+          <li class="flex items-center">
+            <a class="lg:text-white lg:hover:text-gray-300 text-gray-800 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"
+              href="./src/pages/contact.html"><i class="lg:text-gray-300 text-gray-500  text-lg leading-lg mr-2"></i>
+              Contact</a>
+          </li>
+        </ul>
+
+        <!-- RIGHT OR BOTTOM SOCIAL LINK -->
+        <ul class="flex flex-col lg:flex-row list-none lg:ml-auto">
+          <li class="flex items-center">
+            <a class="lg:text-white lg:hover:text-gray-300 text-gray-800 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"
+              href="#p"><i class="lg:text-gray-100 text-gray-500 fab fa-facebook text-xl leading-lg "></i><span
+                class="lg:hidden inline-block ml-2">Partagez</span></a>
+          </li>
+          <li class="flex items-center">
+            <a class="lg:text-white lg:hover:text-gray-300 text-gray-800 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"
+              href="#"><i class="lg:text-gray-100 text-gray-500 fab fa-instagram text-xl leading-lg "></i><span
+                class="lg:hidden inline-block ml-2">Nous suivre</span></a>
+          </li>
+
+          <li class="flex items-center">
+            <button
+              class="bg-white text-gray-800 ring-2 active:bg-gray-100 text-base font-bold uppercase px-4 py-2 rounded shadow hover:shadow-md outline-none focus:outline-none lg:mr-1 lg:mb-0 ml-3 mb-3"
+              type="button" style="transition: all 0.15s ease 0s;">
+              Login
+            </button>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
   <!-- END OF  OF NAVBAR -->
-  <!-- START OF NAVBAR -->
+  <main>
+  <!-- START OF HERO SECTION -->
+  <div class="relative pt-16 pb-32 flex content-center items-center justify-center" style="min-height: 75vh;">
+    <div class="absolute top-0 w-full h-full bg-center bg-cover bg-no-repeat" style='background-image: url(./src/images/bg-hero.jpg);'>
+      <span id="blackOverlay" class="w-full h-full absolute opacity-30 bg-black"></span>
+    </div>
+    <div class="container relative mx-auto ">
+      <div class="items-cente flex">
+        <div class="w-full lg:w-6/12 px-4 ml-auto lg:ml-32 mr-full text-center lg:-left">
+          <div class="pr-12 lg:pb-16" id="animate-title">
+            <h1 class="text-white font-body font-bold text-3xl lg:text-5xl text-justify uppercase">
+              agissons enssemble
+            </h1>
+            <p class="mt-4 text-lg text-gray-300 text-justify">
+              Aidons la protection animale et environnementale
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="top-auto bottom-0 left-0 right-0 w-full absolute pointer-events-none overflow-hidden"
+      style="height: 70px;">
+      <svg class="absolute bottom-0 overflow-hidden" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none"
+        version="1.1" viewBox="0 0 2560 100" x="0" y="0">
+        <polygon class="text-gray-300 fill-current" points="2560 0 2560 100 0 100"></polygon>
+      </svg>
+    </div>
+  </div>
   <!-- END OF OF HERO SECTION -->
-  <!-- START OF NAVBAR -->
-  <!-- END OF CONTENT SECTION -->
+
+  <!-- START OF FIRST CONTENT SECTION -->
+  <!-- END OF FIRST CONTENT SECTION -->
+
+  <!-- START OF QUOTE SECTION -->
+  <!-- END OF QUOTE SECTION -->
+
   <!-- START OF NEWS SECTION -->
   <!-- END OF NEWS SECTION -->
+
+  <!-- START OF SECOND CONTENT SECTION -->
+  <!-- END OF SECOND CONTENT SECTION -->
+
   <!-- START OF FOOTER SECTION -->
   <footer class="text-center bg-teal-900 text-white">
     <div class="container px-6 pt-6">
@@ -150,7 +249,8 @@
               <a href="#" class="flex justify-center items-center font-semibold">
                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="w3 h-3 mr-3 text-teal-100">
                   <path fill="currentColor"
-                  d="M256 352c-16.53 0-33.06-5.422-47.16-16.41L0 173.2V400C0 426.5 21.49 448 48 448h416c26.51 0 48-21.49 48-48V173.2l-208.8 162.5C289.1 346.6 272.5 352 256 352zM16.29 145.3l212.2 165.1c16.19 12.6 38.87 12.6 55.06 0l212.2-165.1C505.1 137.3 512 125 512 112C512 85.49 490.5 64 464 64h-416C21.49 64 0 85.49 0 112C0 125 6.01 137.3 16.29 145.3z"/></svg>
+                    d="M256 352c-16.53 0-33.06-5.422-47.16-16.41L0 173.2V400C0 426.5 21.49 448 48 448h416c26.51 0 48-21.49 48-48V173.2l-208.8 162.5C289.1 346.6 272.5 352 256 352zM16.29 145.3l212.2 165.1c16.19 12.6 38.87 12.6 55.06 0l212.2-165.1C505.1 137.3 512 125 512 112C512 85.49 490.5 64 464 64h-416C21.49 64 0 85.49 0 112C0 125 6.01 137.3 16.29 145.3z" />
+                </svg>
                 contact@sterilyzed.com
               </a>
             </li>
@@ -165,6 +265,8 @@
     </div>
   </footer>
   <!-- END OF NEWS SECTION -->
+</main>
+
 
 </body>
 
