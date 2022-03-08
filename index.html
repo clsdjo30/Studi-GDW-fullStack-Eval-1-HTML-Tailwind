@@ -322,8 +322,75 @@
   </section>
   <!-- END OF NEWS SECTION -->
 
-  <!-- START OF NEWS SECTION -->
-  <!-- END OF NEWS SECTION -->
+  <!-- START OF TAB STEPS SECTION -->
+  <section class="text-gray-600  body-font flex flex-col lg:flex-row justify-center items-center bg-slate-100" id="mission">
+    <!-- switch images depending on their orientation  -->
+    <img src="./src/images/step-side.jpg" alt="Un chat vaut mieux, que deux tu l'auras" class="md:hidden object-cover w-80 m-6  rounded-lg shadow-2xl shadow-slate-700 lg:w-1/2 lg:mx-16">
+    <img src="./src/images/cat-bg-2.jpg" alt="Caht qui peut!" class="hidden md:block object-cover w-80 m-6  rounded-lg shadow-2xl shadow-slate-700 lg:w-1/2 lg:mx-16">
+
+    <div class="tabs container px-5 py-16 mx-auto flex flex-wrap flex-col">
+      <h3 class="text-2xl font-semibold uppercase text-center pb-8">Pourquoi stériliser votre chat?</h3>
+      <div class="flex mx-auto flex-wrap mb-20" role="tablist" aria-label="step-tabs">
+        <a class="tab-step tab-step-active font-semibold capitalize" role="tab" aria-selected="true" id="one">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" class="w-5 h-5 mr-3 text-teal-600">
+            <path fill="currentColor"
+              d="M384 32C419.3 32 448 60.65 448 96V416C448 451.3 419.3 480 384 480H64C28.65 480 0 451.3 0 416V96C0 60.65 28.65 32 64 32H384zM339.8 211.8C350.7 200.9 350.7 183.1 339.8 172.2C328.9 161.3 311.1 161.3 300.2 172.2L192 280.4L147.8 236.2C136.9 225.3 119.1 225.3 108.2 236.2C97.27 247.1 97.27 264.9 108.2 275.8L172.2 339.8C183.1 350.7 200.9 350.7 211.8 339.8L339.8 211.8z" />
+          </svg>
+          espérance de vie
+        </a>
+        <a class="tab-step tab-step-active font-semibold capitalize" role="tab" aria-selected="false" id="two">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" class="w-5 h-5 mr-3 text-teal-600">
+            <path fill="currentColor"
+              d="M384 32C419.3 32 448 60.65 448 96V416C448 451.3 419.3 480 384 480H64C28.65 480 0 451.3 0 416V96C0 60.65 28.65 32 64 32H384zM339.8 211.8C350.7 200.9 350.7 183.1 339.8 172.2C328.9 161.3 311.1 161.3 300.2 172.2L192 280.4L147.8 236.2C136.9 225.3 119.1 225.3 108.2 236.2C97.27 247.1 97.27 264.9 108.2 275.8L172.2 339.8C183.1 350.7 200.9 350.7 211.8 339.8L339.8 211.8z" />
+          </svg>
+          comportements
+        </a>
+        <a class="tab-step tab-step-active font-semibold capitalize" role="tab" aria-selected="false" id="three">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" class="w-5 h-5 mr-3 text-teal-600">
+            <path fill="currentColor"
+              d="M384 32C419.3 32 448 60.65 448 96V416C448 451.3 419.3 480 384 480H64C28.65 480 0 451.3 0 416V96C0 60.65 28.65 32 64 32H384zM339.8 211.8C350.7 200.9 350.7 183.1 339.8 172.2C328.9 161.3 311.1 161.3 300.2 172.2L192 280.4L147.8 236.2C136.9 225.3 119.1 225.3 108.2 236.2C97.27 247.1 97.27 264.9 108.2 275.8L172.2 339.8C183.1 350.7 200.9 350.7 211.8 339.8L339.8 211.8z" />
+          </svg>
+           maladies féline 
+        </a>
+        <a class="tab-step tab-step-active font-semibold capitalize" role="tab" aria-selected="false" id="four">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" class="w-5 h-5 mr-3 text-teal-600">
+            <path fill="currentColor"
+              d="M384 32C419.3 32 448 60.65 448 96V416C448 451.3 419.3 480 384 480H64C28.65 480 0 451.3 0 416V96C0 60.65 28.65 32 64 32H384zM339.8 211.8C350.7 200.9 350.7 183.1 339.8 172.2C328.9 161.3 311.1 161.3 300.2 172.2L192 280.4L147.8 236.2C136.9 225.3 119.1 225.3 108.2 236.2C97.27 247.1 97.27 264.9 108.2 275.8L172.2 339.8C183.1 350.7 200.9 350.7 211.8 339.8L339.8 211.8z" />
+          </svg>
+          stop maltraitance
+        </a>
+        
+      </div>
+      <div role="tabpanel" aria-labelledby="one">
+        
+        <div class="flex flex-col px-10 w-full">
+          <h1 class="text-2xl text-center font-bold font-sans mb-4 text-gray-900">Prolonger son espérance de vie</h1>
+          <p class="lg:w-2/3 mx-auto leading-relaxed text-base text-justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt culpa commodi perspiciatis! Laborum qui totam ipsam enim nesciunt ea aliquam veritatis aut eligendi necessitatibus incidunt pariatur quos omnis non, laudantium a soluta accusantium iste illum dolore praesentium? Quos?</p>
+        </div>
+      </div>
+      <div role="tabpanel" aria-labelledby="two" hidden>
+        
+        <div class="flex flex-col text-center w-full">
+          <h1 class="text-xl font-medium title-font mb-4 text-gray-900">Terminer les comportements agréssifs</h1>
+          <p class="lg:w-2/3 mx-auto leading-relaxed text-base">Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda fuga vel porro? Aspernatur quisquam repellat exercitationem consequatur dolor, culpa fuga mollitia odit illum quae vero voluptatem fugit aliquam ipsa molestias id eveniet nulla sunt dolorum, earum aliquid error! A, accusantium.</p>
+        </div>
+      </div>
+      <div role="tabpanel" aria-labelledby="three" hidden>      
+        <div class="flex flex-col text-center w-full">
+          <h1 class="text-xl font-medium title-font mb-4 text-gray-900">soigner son chat plus facilement</h1>
+          <p class="lg:w-2/3 mx-auto leading-relaxed text-base">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cupiditate error veniam voluptatem beatae eligendi, voluptate inventore culpa iure accusantium quibusdam, sequi distinctio voluptates voluptatibus veritatis delectus quam molestias neque! A eveniet modi expedita hic molestiae!</p>
+        </div>
+      </div>
+      <div role="tabpanel" aria-labelledby="four" hidden>
+        <div class="flex flex-col text-center w-full">
+          <h1 class="text-xl font-medium title-font mb-4 text-gray-900">Un couple de chat = 20.500 chat dans 4 ans</h1>
+          <p class="lg:w-2/3 mx-auto leading-relaxed text-base">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure ratione commodi inventore est debitis? Expedita reiciendis, exercitationem corporis temporibus voluptate repellat facilis repudiandae mollitia nihil possimus consectetur eligendi labore amet excepturi tenetur, dolor dolores unde eos at voluptatem praesentium dicta, maxime quisquam. Dolorum beatae sapiente ab sequi iusto!</p>
+        </div>
+      </div>
+      
+    </div>
+  </section>
+  <!-- END OF TAB STEPS SECTION -->
   
   <!-- START OF QUOTE SECTION -->
   <!-- END OF QUOTE SECTION -->
@@ -472,5 +539,6 @@
 <!-- SCRIPT JS -->
 <script src="./src/assets/js/toggleNavbar.js"></script>
 <script src="./src/assets/js/newsSlidder.js"></script>
+<script src="./src/assets/js/tabSteps.js"></script>
 
 </html>
