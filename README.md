@@ -49,7 +49,6 @@ Of course the site will have to be responsive and at the request of the customer
 - Mobile-first workflow
 - [TailwindCSS][https://tailwind.com] - CSS Framework
 - [Vanilla JS][http://vanilla-js.com/] - JS Native
-- [Green Sock][https://greensock.com/gsap/] - JS Animation librairies
 
 
 ### What I learned
