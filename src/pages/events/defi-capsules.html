@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sterilyzed - Defi recyclage de dosette café</title>
+  <meta name="description" content="Grande opérationde collecte de toutes vos capsules de café">
+    <meta name="keywords" content="association, capsule de café, dosette nespresso, collecter, environement">
+
+  <!-- FONTAWESOME KIT -->
+  <script src="https://kit.fontawesome.com/eaca9dc347.js" crossorigin="anonymous"></script>
+  <!-- PERSONNAL TAILWIND CSS -->
+  <link href="/../../dist/output.css" rel="stylesheet" />
+  <!-- SCRIPT JS -->
+  <script src="../../assets/js/toggleNavbar.js"></script>
+  <!-- MODAL SCRIPT -->
+  <script src="../../assets//js//modal.js"></script>
+
+
+
+</head>
+
+<body>
+
+  <!-- START OF NAVBAR -->
+  <nav class="top-0 static bg-slate-500 z-50 w-full flex flex-wrap items-center justify-between px-2 py-3">
+    <div class="container px-4 mx-auto flex flex-wrap items-center justify-between">
+      <div class="w-full relative flex justify-between lg:w-auto lg:static lg:block lg:justify-start">
+        <!-- BRAND NAME -->
+        <a class="text-3xl font-bold leading-relaxed inline-block mr-4 py-2 whitespace-nowrap uppercase text-white "
+          href="../../index.html" target="blank">
+          <span class="text-red-700 text-4xl">S</span>teri<span class="text-teal-800 text-4xl ">L</span>yzed
+        </a>
+
+        <!-- MOBILE ICON MENU -->
+        <button
+          class="cursor-pointer text-xl leading-none px-3 py-1 border border-solid border-transparent rounded bg-transparent block lg:hidden outline-none focus:outline-none"
+          type="button" onclick="toggleNavbar('toggle-navbar')">
+          <i class="text-white fas fa-bars"></i>
+        </button>
+      </div>
+
+      <div class="lg:flex flex-1 items-center bg-white lg:bg-transparent lg:shadow-none hidden" id="toggle-navbar">
+
+        <ul class="flex flex-col lg:flex-row list-none mr-auto">
+          <li class="flex items-center">
+            <a class="lg:text-white lg:hover:text-gray-300 text-gray-800 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"
+              href="#mission"><i class="lg:text-gray-300 text-gray-500 text-lg leading-lg mr-2"></i>
+              Nos Missions</a>
+          </li>
+          <li class="flex items-center">
+            <a class="lg:text-white lg:hover:text-gray-300 text-gray-800 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"
+              href="../evenements.html"><i class="lg:text-gray-300 text-gray-500  text-lg leading-lg mr-2"></i>
+              Evenements</a>
+          </li>
+          <li class="flex items-center">
+            <a class="lg:text-white lg:hover:text-gray-300 text-gray-800 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"
+              href="#"><i class="lg:text-gray-300 text-gray-500  text-lg leading-lg mr-2"></i>
+              Contact</a>
+          </li>
+        </ul>
+
+        <!-- RIGHT OR BOTTOM SOCIAL LINK -->
+        <ul class="flex flex-col lg:flex-row list-none lg:ml-auto">
+          <li class="flex items-center">
+            <a class="lg:text-white lg:hover:text-gray-300 text-gray-800 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"
+              href="#p"><i class="lg:text-gray-100 text-gray-500 fab fa-facebook text-xl leading-lg "></i><span
+                class="lg:hidden inline-block ml-2">Partagez</span></a>
+          </li>
+          <li class="flex items-center">
+            <a class="lg:text-white lg:hover:text-gray-300 text-gray-800 px-3 py-4 lg:py-2 flex items-center text-xs uppercase font-bold"
+              href="#"><i class="lg:text-gray-100 text-gray-500 fab fa-instagram text-xl leading-lg "></i><span
+                class="lg:hidden inline-block ml-2">Nous suivre</span></a>
+          </li>
+
+          <li class="flex items-center">
+            <button
+              class="bg-white text-gray-800 ring-2 active:bg-gray-100 text-base font-bold uppercase px-4 py-2 rounded shadow hover:shadow-md outline-none focus:outline-none lg:mr-1 lg:mb-0 ml-3 mb-3"
+              type="button" style="transition: all 0.15s ease 0s;">
+              Login
+            </button>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!-- END OF  OF NAVBAR -->
+  <main>
+
+    <!-- START OF BLOG ARTICLE SECTION -->
+    <section class=" font-body mx-auto " id="article-content">
+
+
+
+      <div class="container px-5 py-24 mx-auto flex flex-col">
+        <div class="lg:w-2/3 mx-auto">
+          <div class="rounded-lg h-32 overflow-hidden shadow-md shadow-black">
+            <img alt="Collecte de capsules de dosette de café" class="object-cover object-center h-full w-full"
+              src="../../images/actus/defi-dosette.jpg">
+          </div>
+
+
+          <div
+            class="text-gray-700sm:w-2/3 sm:pl-8 sm:py-8 sm:border-l border-gray-200 sm:border-t-0 border-t mt-6 pt-4 sm:mt-0 text-center sm:text-left">
+            <h1 class="mb-6 text-center text-teal-900 text-3xl font-extrabold">Le défi capsules s’étend !</h1>
+
+            <!-- MODAL SUBSCRIBE -->
+
+            <div
+              class="hidden overflow-x-hidden overflow-y-auto fixed inset-0 z-50 outline-none focus:outline-none justify-center items-center"
+              id="modal-id">
+              <div class="relative w-auto my-6 mx-auto max-w-3xl">
+                <!--content-->
+                <div
+                  class="border-0 rounded-lg shadow-lg relative flex flex-col w-full bg-white outline-none focus:outline-none">
+                  <!--header-->
+                  <div class="flex items-start justify-between p-5 border-b border-solid border-blueGray-200 rounded-t">
+                    <h3 class="text-3xl font-semibold">
+                      Inscription à l'évènement
+                    </h3>
+                    <button
+                      class="p-1 ml-auto bg-transparent border-0 text-black opacity-5 float-right text-3xl leading-none font-semibold outline-none focus:outline-none"
+                      onclick="toggleModal('modal-id')">
+                      <span
+                        class="bg-transparent text-black opacity-5 h-6 w-6 text-2xl block outline-none focus:outline-none">
+                        ×
+                      </span>
+                    </button>
+                  </div>
+                  <!--body-->
+                  <div class="relative p-6 flex-auto">
+                    <label for="full-name" class="leading-7 text-sm text-gray-600">Votre nom </label>
+                    <input type="text" id="full-name" name="full-name"
+                      class="w-full bg-white rounded border border-gray-300 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out">
+
+                    <label for="email" class="leading-7 text-sm text-gray-600">Votre Email</label>
+                    <input type="email" id="email" name="email"
+                      class="w-full bg-white rounded border border-gray-300 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out">
+                  </div>
+                  <!--footer-->
+                  <div class="flex items-center justify-end p-6 border-t border-solid border-blueGray-200 rounded-b">
+                    <button
+                      class="text-red-500 background-transparent font-bold uppercase px-6 py-2 text-sm outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150"
+                      type="button" onclick="toggleModal('modal-id')">
+                      Fermer
+                    </button>
+                    <button
+                      class="bg-emerald-500 text-white active:bg-emerald-600 font-bold uppercase text-sm px-6 py-3 rounded shadow hover:shadow-lg outline-none focus:outline-none mr-1 mb-1 ease-linear transition-all duration-150"
+                      type="button" onclick="toggleModal('modal-id')">
+                      Valider mon inscription
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="hidden opacity-25 fixed inset-0 z-40 bg-black" id="modal-id-backdrop"></div>
+
+            <p class="leading-relaxed text-lg mb-2 text-gray-600">Ne jetez plus vos capsules et dosettes de café usagées, déposez-les nous ! L’argent issu de leur valorisation sera reversé à l'association ! Le défi capsules s’étend ainsi à tous les types de capsules et dosettes usagées, quelles que soient leurs marques, leurs formes, ou leurs matériaux !</p>
+<div class="flex justify-center items-center my-4">
+    <img  class="shadow-lg"
+    src="../../images/actus/dosettes.jpg" alt="Quelles capsules peut on recycler?">
+</div>
+
+            <p class="leading-relaxed text-lg mb-4 text-gray-600 text-center">
+                L’objectif reste inchangé : collecter dans un 1er temps 100 000 capsules et dosettes !</p>
+
+                <h2 class="text-left text-xl font-semibold text-gray-800 mb-4"> Le principe du projet :</h2>
+                <div class="flex justify-center w-full">
+                    <ul class="flex flex-wrap space-y-4 w-2/3 text-justify list-decimal leading-relaxed text-gray-700">
+                        <li>
+                            Nous communiquons le plus largement possible pour ainsi déployer un réseau de collecte collaborative de capsules usagées
+                        </li>
+                        <li>
+                           Nous nous déplaçons pour récupérer les capsules mises de côté
+                        </li>
+                        <li>
+                            Nous séparons les emballages du marc de café. L’opération se fait à ce jour manuellement, mais nous envisageons de concevoir une petite machine pour réaliser cette manipulation, sans apport d’électricité. Toute aide sera la bienvenue d’ailleurs
+                        </li>
+                        <li>
+                            Le marc de café ainsi récupéré est revendu à Ecovalim, entreprise de collecte et de valorisation des déchets alimentaires (Bio-déchets, Huiles, marc de café…). Ils transforment notamment le marc de café en bûches compressées pour les chaudières et poêles, sous la marque Valoflam. Ils ont accepté de monter un partenariat ponctuel pour soutenir le « défi capsules », mais normalement Ecovalim travaille uniquement avec des professionnels (restaurateurs, traiteurs, industriels, collectivités)… Merci SVP aux particuliers de ne pas les contacter pour recycler vos huiles et marc de café personnels ! L’objectif est d’ainsi valoriser environ 1 tonne de marc de café !
+                        </li>
+                        <li>
+                            Les déchets d’emballages métalliques (les capsules en aluminium) sont revendus à la société de recyclage Costella. Les emballages en papier seront compostés. Pour les emballages plastique, je cherche soit un partenariat avec un industriel, soit un partenariat avec une association d’artistes qui se sentiraient l’âme créatrice !
+                        </li>
+                        <li>
+                            Enfin, l’argent issu de la vente du marc de café et des emballages valorisables sera reversé à l'associations
+                        </li>
+                    </ul>
+                </div>
+               
+            
+            
+
+
+
+            <div class="flex items-center mt-6">
+
+              <!-- Button EVENT INSCRIPTION MODAL -->
+              <button
+                class="bg-teal-700 py-2 px-4 text-white font-semibold rounded pl-10bg-pink-500  uppercase text-sm shadow hover:shadow-lg  ease-linear transition-all duration-150"
+                type="button" onclick="toggleModal('modal-id')">
+                Participer à l'évènement
+              </button>
+              <div class="flex justify-end w-full  rounded mt-2 mb-4">
+                <h2 class="font-medium title-font  text-red-700 text-lg">Partagez cet article</h2>
+                <a type="button" target="blank" href="http://facebook.com"
+                  class="rounded-full border-2  text-teal-900  leading-normal uppercase hover:text-teal-500 transition duration-150 ease-in-out w-5 h-5 m-1">
+                  <svg aria-hidden="true" focusable="false" data-prefix="fab" data-icon="facebook-f"
+                    class="w-3 h-full mx-auto" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512">
+                    <path fill="currentColor"
+                      d="M279.14 288l14.22-92.66h-88.91v-60.13c0-25.35 12.42-50.06 52.24-50.06h40.42V6.26S260.43 0 225.36 0c-73.22 0-121.08 44.38-121.08 124.72v70.62H22.89V288h81.39v224h100.17V288z">
+                    </path>
+                  </svg>
+                </a>
+                <a href="http://instagram.com" type="button" target="blank"
+                  class="rounded-full border-2  text-teal-900 leading-normal uppercase hover:text-teal-500 transition duration-150 ease-in-out w-5 h-5 m-1">
+                  <svg aria-hidden="true" focusable="false" data-prefix="fab" data-icon="instagram"
+                    class="w-3 h-full mx-auto" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                    <path fill="currentColor"
+                      d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z">
+                    </path>
+                  </svg>
+                </a>
+                <a class="rounded-full border-2  text-teal-900  leading-normal uppercase hover:text-teal-500 transition duration-150 ease-in-out w-5 h-5 m-1"
+                  target="blank" href="http://twitter.com">
+                  <svg aria-hidden="true" focusable="false" data-prefix="fab" data-icon="twitter"
+                    class="w-4 h-full mx-auto cursor-pointer" role="img" xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 512 512">
+                    <path fill="currentColor"
+                      d="M459.37 151.716c.325 4.548.325 9.097.325 13.645 0 138.72-105.583 298.558-298.558 298.558-59.452 0-114.68-17.219-161.137-47.106 8.447.974 16.568 1.299 25.34 1.299 49.055 0 94.213-16.568 130.274-44.832-46.132-.975-84.792-31.188-98.112-72.772 6.498.974 12.995 1.624 19.818 1.624 9.421 0 18.843-1.3 27.614-3.573-48.081-9.747-84.143-51.98-84.143-102.985v-1.299c13.969 7.797 30.214 12.67 47.431 13.319-28.264-18.843-46.781-51.005-46.781-87.391 0-19.492 5.197-37.36 14.294-52.954 51.655 63.675 129.3 105.258 216.365 109.807-1.624-7.797-2.599-15.918-2.599-24.04 0-57.828 46.782-104.934 104.934-104.934 30.213 0 57.502 12.67 76.67 33.137 23.715-4.548 46.456-13.32 66.599-25.34-7.798 24.366-24.366 44.833-46.132 57.827 21.117-2.273 41.584-8.122 60.426-16.243-14.292 20.791-32.161 39.308-52.628 54.253z">
+                    </path>
+                  </svg>
+                </a>
+                <a class="rounded-full border-2  text-teal-900 leading-normal uppercase hover:text-teal-500 transition duration-150 ease-in-out w-5 h-5 m-1 "
+                  target="blank" href="http://gmail.com">
+                  <svg aria-hidden="true" focusable="false" data-prefix="fab" data-icon="twitter"
+                    class="w-4 h-full mx-auto cursor-pointer" role="img" xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 512 512">
+                    <path fill="currentColor"
+                      d="M511.6 36.86l-64 415.1c-1.5 9.734-7.375 18.22-15.97 23.05c-4.844 2.719-10.27 4.097-15.68 4.097c-4.188 0-8.319-.8154-12.29-2.472l-122.6-51.1l-50.86 76.29C226.3 508.5 219.8 512 212.8 512C201.3 512 192 502.7 192 491.2v-96.18c0-7.115 2.372-14.03 6.742-19.64L416 96l-293.7 264.3L19.69 317.5C8.438 312.8 .8125 302.2 .0625 289.1s5.469-23.72 16.06-29.77l448-255.1c10.69-6.109 23.88-5.547 34 1.406S513.5 24.72 511.6 36.86z" />
+                  </svg>
+                </a>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+     
+     
+    </section>
+    <!-- END OF BLOG ARTICLE SECTION -->
+
+    <!-- START OF FOOTER SECTION -->
+    <footer class="text-center bg-teal-900 text-white">
+      <div class="container px-6 pt-6">
+        <div class="flex justify-center mb-6">
+          <a href="#!" type="button"
+            class="rounded-full border-2 border-white text-white leading-normal uppercase hover:bg-black hover:bg-opacity-5 focus:outline-none focus:ring-0 transition duration-150 ease-in-out w-9 h-9 m-1">
+            <svg aria-hidden="true" focusable="false" data-prefix="fab" data-icon="facebook-f"
+              class="w-2 h-full mx-auto" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512">
+              <path fill="currentColor"
+                d="M279.14 288l14.22-92.66h-88.91v-60.13c0-25.35 12.42-50.06 52.24-50.06h40.42V6.26S260.43 0 225.36 0c-73.22 0-121.08 44.38-121.08 124.72v70.62H22.89V288h81.39v224h100.17V288z">
+              </path>
+            </svg>
+          </a>
+
+          <a href="#!" type="button"
+            class="rounded-full border-2 border-white text-white leading-normal uppercase hover:bg-black hover:bg-opacity-5 focus:outline-none focus:ring-0 transition duration-150 ease-in-out w-9 h-9 m-1">
+            <svg aria-hidden="true" focusable="false" data-prefix="fab" data-icon="twitter" class="w-3 h-full mx-auto"
+              role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+              <path fill="currentColor"
+                d="M459.37 151.716c.325 4.548.325 9.097.325 13.645 0 138.72-105.583 298.558-298.558 298.558-59.452 0-114.68-17.219-161.137-47.106 8.447.974 16.568 1.299 25.34 1.299 49.055 0 94.213-16.568 130.274-44.832-46.132-.975-84.792-31.188-98.112-72.772 6.498.974 12.995 1.624 19.818 1.624 9.421 0 18.843-1.3 27.614-3.573-48.081-9.747-84.143-51.98-84.143-102.985v-1.299c13.969 7.797 30.214 12.67 47.431 13.319-28.264-18.843-46.781-51.005-46.781-87.391 0-19.492 5.197-37.36 14.294-52.954 51.655 63.675 129.3 105.258 216.365 109.807-1.624-7.797-2.599-15.918-2.599-24.04 0-57.828 46.782-104.934 104.934-104.934 30.213 0 57.502 12.67 76.67 33.137 23.715-4.548 46.456-13.32 66.599-25.34-7.798 24.366-24.366 44.833-46.132 57.827 21.117-2.273 41.584-8.122 60.426-16.243-14.292 20.791-32.161 39.308-52.628 54.253z">
+              </path>
+            </svg>
+          </a>
+
+          <a href="#!" type="button"
+            class="rounded-full border-2 border-white text-white leading-normal uppercase hover:bg-black hover:bg-opacity-5 focus:outline-none focus:ring-0 transition duration-150 ease-in-out w-9 h-9 m-1">
+            <svg aria-hidden="true" focusable="false" data-prefix="fab" data-icon="instagram" class="w-3 h-full mx-auto"
+              role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+              <path fill="currentColor"
+                d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z">
+              </path>
+            </svg>
+          </a>
+        </div>
+
+        <div>
+          <form action="">
+            <div class="grid md:grid-cols-3 gird-cols-1 gap-4 md:flex justify-center items-center">
+              <div class="md:ml-auto md:mb-6">
+                <p class="">
+                  <strong>Abonnez vous à notre NewsLetter</strong>
+                </p>
+              </div>
+
+              <div class="md:mb-6">
+                <input type="text" class="
+                    form-control
+                    block
+                    w-full
+                    px-3
+                    py-1.5
+                    text-base
+                    font-normal
+                    text-gray-700
+                    bg-white bg-clip-padding
+                    border border-solid border-gray-300
+                    rounded
+                    transition
+                    ease-in-out
+                    m-0
+                    focus:text-gray-700 focus:bg-white focus:border-blue-600 focus:outline-none
+                  " id="exampleFormControlInput1" placeholder="Saisissez votre adresse email" />
+              </div>
+
+              <div class="md:mr-auto mb-6">
+                <button type="submit"
+                  class="inline-block px-6 py-2 border-2 border-white text-white font-medium text-xs leading-tight uppercase rounded hover:bg-black hover:bg-opacity-5 focus:outline-none focus:ring-0 transition duration-150 ease-in-out">
+                  S'abonner'
+                </button>
+              </div>
+            </div>
+          </form>
+        </div>
+
+
+
+        <div class="grid md:grid-cols-4 grid-cols-2">
+          <div class="mb-6">
+            <h5 class="uppercase font-bold mb-2.5"><a href="#!" class="text-white">Mission</a></h5>
+            <ul>
+              <li><a href="#" class="text-white font-thin">Sensibiliser</a></li>
+              <li><a href="#" class="text-white font-thin">Soigner</a></li>
+              <li><a href="#" class="text-white font-thin">Steriliser</a></li>
+              <li><a href="#" class="text-white font-thin">Collecter</a></li>
+            </ul>
+          </div>
+
+          <div class="mb-6">
+            <h5 class="uppercase font-bold mb-2.5"><a href="#!" class="text-white">Actualités</a></h5>
+            <ul>
+              <li><a href="#" class="text-white font-thin">Soigner</a></li>
+              <li><a href="#" class="text-white font-thin">Steriliser</a></li>
+              <li><a href="#" class="text-white font-thin">Collecter</a></li>
+              <li><a href="#" class="text-white font-thin">Sensibilisation</a></li>
+            </ul>
+          </div>
+
+          <div class="mb-6">
+            <h5 class="uppercase font-bold mb-2.5"><a href="#!" class="text-white">L'association</a></h5>
+            <ul>
+              <li><a href="#" class="text-white font-thin">Mentions légales</a></li>
+              <li><a href="#" class="text-white font-thin">Conditions générales</a></li>
+            </ul>
+          </div>
+
+          <div class="mb-6">
+            <h5 class="uppercase font-bold mb-2.5"><a href="src/pages/contact.html" class="text-white">Contact</a></h5>
+            <ul>
+              <li class="">
+                <a class="flex justify-center items-center font-semibold">
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="w3 h-3 mr-3 text-teal-100">
+                    <path fill="currentColor"
+                      d="M511.2 387l-23.25 100.8c-3.266 14.25-15.79 24.22-30.46 24.22C205.2 512 0 306.8 0 54.5c0-14.66 9.969-27.2 24.22-30.45l100.8-23.25C139.7-2.602 154.7 5.018 160.8 18.92l46.52 108.5c5.438 12.78 1.77 27.67-8.98 36.45L144.5 207.1c33.98 69.22 90.26 125.5 159.5 159.5l44.08-53.8c8.688-10.78 23.69-14.51 36.47-8.975l108.5 46.51C506.1 357.2 514.6 372.4 511.2 387z" />
+                  </svg>
+                  04.65.159.159
+                </a>
+
+              </li>
+              <li class="">
+                <a href="#" class="flex justify-center items-center font-semibold">
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="w3 h-3 mr-3 text-teal-100">
+                    <path fill="currentColor"
+                      d="M256 352c-16.53 0-33.06-5.422-47.16-16.41L0 173.2V400C0 426.5 21.49 448 48 448h416c26.51 0 48-21.49 48-48V173.2l-208.8 162.5C289.1 346.6 272.5 352 256 352zM16.29 145.3l212.2 165.1c16.19 12.6 38.87 12.6 55.06 0l212.2-165.1C505.1 137.3 512 125 512 112C512 85.49 490.5 64 464 64h-416C21.49 64 0 85.49 0 112C0 125 6.01 137.3 16.29 145.3z" />
+                  </svg>
+                  contact@sterilyzed.com
+                </a>
+              </li>
+
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="text-center p-4 text-xs " style="background-color: rgba(0, 0, 0, 0.2);">
+        © 2022 Copyright <a class="text-white" href="https://github.com/clsdjo30/"> Cedric Le Sergent</a>
+      </div>
+    </footer>
+
+  </main>
+
+
+</body>
+
+</html>

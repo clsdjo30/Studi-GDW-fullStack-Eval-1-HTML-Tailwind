@@ -1,5 +1,5 @@
 module.exports = {
-  content: ["index.html", "./src/pages/contact.html"],
+  content: ["index.html", "./src/pages/**/*.html", "./src/pages/events/*.{html,js}"],
   theme: {
     fontFamily : {
       'sans': ['Segoe UI', 'Helvetica', 'sans-serif'],
