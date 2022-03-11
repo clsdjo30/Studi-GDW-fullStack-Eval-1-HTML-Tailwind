@@ -852,18 +852,6 @@ Ensure the default browser behavior of the `hidden` attribute.
   height: 1.5rem;
 }
 
-.h-24{
-  height: 6rem;
-}
-
-.h-2{
-  height: 0.5rem;
-}
-
-.h-52{
-  height: 13rem;
-}
-
 .max-h-full{
   max-height: 100%;
 }
@@ -920,20 +908,8 @@ Ensure the default browser behavior of the `hidden` attribute.
   width: 1.5rem;
 }
 
-.w-1\/2{
-  width: 50%;
-}
-
 .w-2\/3{
   width: 66.666667%;
-}
-
-.w-24{
-  width: 6rem;
-}
-
-.w-52{
-  width: 13rem;
 }
 
 .min-w-0{
@@ -1072,18 +1048,6 @@ Ensure the default browser behavior of the `hidden` attribute.
   --tw-space-y-reverse: 0;
   margin-top: calc(1rem * calc(1 - var(--tw-space-y-reverse)));
   margin-bottom: calc(1rem * var(--tw-space-y-reverse));
-}
-
-.space-y-6 > :not([hidden]) ~ :not([hidden]){
-  --tw-space-y-reverse: 0;
-  margin-top: calc(1.5rem * calc(1 - var(--tw-space-y-reverse)));
-  margin-bottom: calc(1.5rem * var(--tw-space-y-reverse));
-}
-
-.space-y-10 > :not([hidden]) ~ :not([hidden]){
-  --tw-space-y-reverse: 0;
-  margin-top: calc(2.5rem * calc(1 - var(--tw-space-y-reverse)));
-  margin-bottom: calc(2.5rem * var(--tw-space-y-reverse));
 }
 
 .overflow-hidden{
@@ -1283,11 +1247,6 @@ Ensure the default browser behavior of the `hidden` attribute.
   fill: currentColor;
 }
 
-.object-contain{
-  -o-object-fit: contain;
-     object-fit: contain;
-}
-
 .object-cover{
   -o-object-fit: cover;
      object-fit: cover;
@@ -1462,10 +1421,6 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .text-center{
   text-align: center;
-}
-
-.text-right{
-  text-align: right;
 }
 
 .text-justify{
@@ -2017,6 +1972,14 @@ Ensure the default browser behavior of the `hidden` attribute.
 
   .md\:grid-cols-4{
     grid-template-columns: repeat(4, minmax(0, 1fr));
+  }
+
+  .md\:flex-row{
+    flex-direction: row;
+  }
+
+  .md\:justify-end{
+    justify-content: flex-end;
   }
 
   .md\:justify-center{
